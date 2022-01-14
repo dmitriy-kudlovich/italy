@@ -1,0 +1,37 @@
+.header {
+  margin-bottom: 16px;
+}
+
+.header__desc {
+  text-align: center;
+}
+
+.header__img-bottom {
+  padding: 6px 16px;
+  padding-right: 40px;
+  background-color: #f98000;
+}
+
+.header__ico-wrapper {
+  width: 63px;
+}
+
+.header__form-text {
+  text-align: center;
+}
+
+.header__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 16px 0;
+}
+
+.header__form-text {
+  margin-bottom: 16px;
+}
+
+.header__input {
+  margin-bottom: 16px;
+  width: 100%;
+}

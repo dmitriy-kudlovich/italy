@@ -1,0 +1,80 @@
+.heading {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  color: #ff0000;
+  line-height: 41px;
+}
+
+.text--large {
+  font-size: 24px;
+}
+
+.text--small {
+  font-size: 12px;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.text--red {
+  color: #ff0000;
+}
+
+.text--white {
+  color: #ffffff;
+}
+
+.text--darkred {
+  color: #d51d21;
+}
+
+.text--black {
+  color: #000;
+}
+
+.text--bold {
+  font-weight: 700;
+}
+
+.text--upper {
+  text-transform: uppercase;
+}
+
+.flag-stripes {
+  position: relative;
+}
+
+.flag-stripes::before {
+  content: "";
+  display: block;
+  height: 19px;
+  background-color: #029044;
+}
+
+.flag-stripes::after {
+  content: "";
+  display: block;
+  margin-top: 3px;
+  height: 19px;
+  background-color: #d51d21;
+}
+
+.text-box {
+  padding: 16px;
+  text-align: center;
+}
+
+.text-box--green {
+  background-color: #029044;
+}
+
+.text-box--darkgreen {
+  background-color: #0c93a4;
+}
+
+.min-padding {
+  padding-top: 13px;
+  padding-bottom: 9px;
+}
+

@@ -1,0 +1,132 @@
+/* Cтили, заданные по умолчанию */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  outline: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 320px;
+}
+
+/* // Cтили, заданные по умолчанию */
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.row--column {
+  flex-direction: column;
+}
+
+.text {
+  margin-bottom: 16px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+body {
+  @media (min-width: 1900px) {
+    background: url(../img/bg-map.png) no-repeat;
+    background-position: center 1105px;
+  }
+}
+
+body::before {
+  content: "";
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 38.44%;
+  height: 100%;
+  background: #02904499;
+  filter: blur(4px);
+
+  @media (min-width: 1900px) {
+    display: block;
+  }
+}
+
+body::after {
+  content: "";
+  display: none;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 38.44%;
+  height: 100%;
+  background: #ff000099;
+  filter: blur(4px);
+
+  @media (min-width: 1900px) {
+    display: block;
+  }
+}

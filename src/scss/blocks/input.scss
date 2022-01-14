@@ -1,0 +1,16 @@
+.input {
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  display: block;
+  width: 100%;
+  background-color: #e5e5e5;
+  border: none;
+  border-radius: 89px;
+  color: #979797;
+  font-size: 14px;
+  outline: none;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
